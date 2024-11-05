@@ -102,7 +102,8 @@ def math_quiz() -> None:
     Examples:
     >>> math_quiz()
     Welcome to the Math Quiz Game!
-    You will be presented with math problems, and you need to provide the correct answers.
+    You will be presented with math problems, and you need to provide
+    the correct answers.
 
     Question: 3 * 2
     Your answer: 6
