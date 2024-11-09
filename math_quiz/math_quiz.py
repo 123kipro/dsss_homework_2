@@ -45,7 +45,7 @@ def random_operator() -> str:
     return random.choice(['+', '-', '*'])
 
 def arithmetic_operation(operand_1: int, operand_2: int,
-                         operator: str) -> tuple[int, str]:
+                         operator: str) -> tuple[str, int]:
     """
     Performs an arithmetic operation on two operands and creates a 
     string that represents the arithmetic operation.
