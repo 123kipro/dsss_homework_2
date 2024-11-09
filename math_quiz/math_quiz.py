@@ -141,7 +141,11 @@ def math_quiz() -> None:
 
         # Get the answer from the user
         user_answer = input("Your answer: ")
-        user_answer = int(user_answer)
+        try:
+            user_answer = int(user_answer)
+        except ValueError:
+            print("Invalid input. Please enter an integer.")
+            continue
         
         # Check if the answer is correct
         if user_answer == answer:
